@@ -6,6 +6,13 @@ import f4 from "../../img/features/f4.png";
 import f5 from "../../img/features/f5.png";
 import f6 from "../../img/features/f6.png";
 import p1 from "../../img/products/f1.jpg";
+import p2 from "../../img/products/f2.jpg";
+import p3 from "../../img/products/f3.jpg";
+import p4 from "../../img/products/f4.jpg";
+import p5 from "../../img/products/f5.jpg";
+import p6 from "../../img/products/f6.jpg";
+import p7 from "../../img/products/f7.jpg";
+import p8 from "../../img/products/f8.jpg";
 
 export default function HomePage() {
   return (
@@ -47,10 +54,136 @@ export default function HomePage() {
 
       <section id="product1" className="section-p1">
         <h2>Featured Products</h2>
-        <p>Summer Collection New Modern Design</p>
+        <p>Summer Collection</p>
         <div className="product-container">
           <div className="product">
             <img src={p1} alt="" />
+            <div className="description">
+              <span>adidas</span>
+              <h5>Cartoon Astronaut T-shirts</h5>
+              <div className="star">
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+              </div>
+              <h4>$78</h4>
+            </div>
+            <Link to="#">
+              <i className="fa-solid fa-cart-shopping cart"></i>
+            </Link>
+          </div>
+          <div className="product">
+            <img src={p2} alt="" />
+            <div className="description">
+              <span>adidas</span>
+              <h5>Cartoon Astronaut T-shirts</h5>
+              <div className="star">
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+              </div>
+              <h4>$78</h4>
+            </div>
+            <Link to="#">
+              <i className="fa-solid fa-cart-shopping cart"></i>
+            </Link>
+          </div>
+          <div className="product">
+            <img src={p3} alt="" />
+            <div className="description">
+              <span>adidas</span>
+              <h5>Cartoon Astronaut T-shirts</h5>
+              <div className="star">
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+              </div>
+              <h4>$78</h4>
+            </div>
+            <Link to="#">
+              <i className="fa-solid fa-cart-shopping cart"></i>
+            </Link>
+          </div>
+          <div className="product">
+            <img src={p4} alt="" />
+            <div className="description">
+              <span>adidas</span>
+              <h5>Cartoon Astronaut T-shirts</h5>
+              <div className="star">
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+              </div>
+              <h4>$78</h4>
+            </div>
+            <Link to="#">
+              <i className="fa-solid fa-cart-shopping cart"></i>
+            </Link>
+          </div>
+          <div className="product">
+            <img src={p5} alt="" />
+            <div className="description">
+              <span>adidas</span>
+              <h5>Cartoon Astronaut T-shirts</h5>
+              <div className="star">
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+              </div>
+              <h4>$78</h4>
+            </div>
+            <Link to="#">
+              <i className="fa-solid fa-cart-shopping cart"></i>
+            </Link>
+          </div>
+          <div className="product">
+            <img src={p6} alt="" />
+            <div className="description">
+              <span>adidas</span>
+              <h5>Cartoon Astronaut T-shirts</h5>
+              <div className="star">
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+              </div>
+              <h4>$78</h4>
+            </div>
+            <Link to="#">
+              <i className="fa-solid fa-cart-shopping cart"></i>
+            </Link>
+          </div>
+          <div className="product">
+            <img src={p7} alt="" />
+            <div className="description">
+              <span>adidas</span>
+              <h5>Cartoon Astronaut T-shirts</h5>
+              <div className="star">
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+              </div>
+              <h4>$78</h4>
+            </div>
+            <Link to="#">
+              <i className="fa-solid fa-cart-shopping cart"></i>
+            </Link>
+          </div>
+          <div className="product">
+            <img src={p8} alt="" />
             <div className="description">
               <span>adidas</span>
               <h5>Cartoon Astronaut T-shirts</h5>

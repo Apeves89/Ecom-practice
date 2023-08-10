@@ -185,6 +185,13 @@ body {
   text-align: center;
 }
 
+#product1 .product-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+
 #product1 .product {
   width: 23%;
   min-width: 250px;
