@@ -13,6 +13,14 @@ import p5 from "../../img/products/f5.jpg";
 import p6 from "../../img/products/f6.jpg";
 import p7 from "../../img/products/f7.jpg";
 import p8 from "../../img/products/f8.jpg";
+import n1 from "../../img/products/n1.jpg";
+import n2 from "../../img/products/n2.jpg";
+import n3 from "../../img/products/n3.jpg";
+import n4 from "../../img/products/n4.jpg";
+import n5 from "../../img/products/n5.jpg";
+import n6 from "../../img/products/n6.jpg";
+import n7 from "../../img/products/n7.jpg";
+import n8 from "../../img/products/n8.jpg";
 
 export default function HomePage() {
   return (
@@ -24,7 +32,6 @@ export default function HomePage() {
         <p>Save more with coupons * up to 70% off!</p>
         <button>Shop Now</button>
       </section>
-
       <section id="featured" className="section-p1">
         <div className="feature-card">
           <img src={f1} alt="" />
@@ -51,7 +58,6 @@ export default function HomePage() {
           <h6>24/7 Support</h6>
         </div>
       </section>
-
       <section id="product1" className="section-p1">
         <h2>Featured Products</h2>
         <p>Summer Collection</p>
@@ -200,6 +206,177 @@ export default function HomePage() {
               <i className="fa-solid fa-cart-shopping cart"></i>
             </Link>
           </div>
+        </div>
+      </section>
+      <section id="banner" className="section-m1">
+        <h4>Repair Services</h4>
+        <h2>
+          Up to <span>70% Off</span> - All t-Shirts & Accessories
+        </h2>
+        <button className="normal">Explore More</button>
+      </section>
+      <section id="product1" className="section-p1">
+        <h2>New Arrivals</h2>
+        <p>Summer Collection</p>
+        <div className="product-container">
+          <div className="product">
+            <img src={n1} alt="" />
+            <div className="description">
+              <span>adidas</span>
+              <h5>Cartoon Astronaut T-shirts</h5>
+              <div className="star">
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+              </div>
+              <h4>$78</h4>
+            </div>
+            <Link to="#">
+              <i className="fa-solid fa-cart-shopping cart"></i>
+            </Link>
+          </div>
+          <div className="product">
+            <img src={n2} alt="" />
+            <div className="description">
+              <span>adidas</span>
+              <h5>Cartoon Astronaut T-shirts</h5>
+              <div className="star">
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+              </div>
+              <h4>$78</h4>
+            </div>
+            <Link to="#">
+              <i className="fa-solid fa-cart-shopping cart"></i>
+            </Link>
+          </div>
+          <div className="product">
+            <img src={n3} alt="" />
+            <div className="description">
+              <span>adidas</span>
+              <h5>Cartoon Astronaut T-shirts</h5>
+              <div className="star">
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+              </div>
+              <h4>$78</h4>
+            </div>
+            <Link to="#">
+              <i className="fa-solid fa-cart-shopping cart"></i>
+            </Link>
+          </div>
+          <div className="product">
+            <img src={n4} alt="" />
+            <div className="description">
+              <span>adidas</span>
+              <h5>Cartoon Astronaut T-shirts</h5>
+              <div className="star">
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+              </div>
+              <h4>$78</h4>
+            </div>
+            <Link to="#">
+              <i className="fa-solid fa-cart-shopping cart"></i>
+            </Link>
+          </div>
+          <div className="product">
+            <img src={n5} alt="" />
+            <div className="description">
+              <span>adidas</span>
+              <h5>Cartoon Astronaut T-shirts</h5>
+              <div className="star">
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+              </div>
+              <h4>$78</h4>
+            </div>
+            <Link to="#">
+              <i className="fa-solid fa-cart-shopping cart"></i>
+            </Link>
+          </div>
+          <div className="product">
+            <img src={n6} alt="" />
+            <div className="description">
+              <span>adidas</span>
+              <h5>Cartoon Astronaut T-shirts</h5>
+              <div className="star">
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+              </div>
+              <h4>$78</h4>
+            </div>
+            <Link to="#">
+              <i className="fa-solid fa-cart-shopping cart"></i>
+            </Link>
+          </div>
+          <div className="product">
+            <img src={n7} alt="" />
+            <div className="description">
+              <span>adidas</span>
+              <h5>Cartoon Astronaut T-shirts</h5>
+              <div className="star">
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+              </div>
+              <h4>$78</h4>
+            </div>
+            <Link to="#">
+              <i className="fa-solid fa-cart-shopping cart"></i>
+            </Link>
+          </div>
+          <div className="product">
+            <img src={n8} alt="" />
+            <div className="description">
+              <span>adidas</span>
+              <h5>Cartoon Astronaut T-shirts</h5>
+              <div className="star">
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+                <i className="fas fa-star"></i>
+              </div>
+              <h4>$78</h4>
+            </div>
+            <Link to="#">
+              <i className="fa-solid fa-cart-shopping cart"></i>
+            </Link>
+          </div>
+        </div>
+      </section>
+      <section id="sm-banner" className="section-p1">
+        <div className="banner-box">
+          <h4>Crazy Deals</h4>
+          <h2>Buy 1 Get 1 Free</h2>
+          <span>The best classic dress is on sale at cara</span>
+          <button className="white">Learn More</button>
+        </div>
+        <div className="banner-box banner-box2">
+          <h4>Spring/Summer</h4>
+          <h2>Upcoming Season</h2>
+          <span>The best classic dress is on sale at cara</span>
+          <button className="white">View Collection</button>
         </div>
       </section>
     </>
