@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import logo from "../../img/logo.png";
 
-export default function Header() {
+export default function Header({ switchLink }) {
   return (
     <>
       <section id="header">

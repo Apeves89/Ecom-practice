@@ -9,16 +9,40 @@ import ContactPage from "./pages/ContactPage/ContactPage";
 import Cart from "./pages/Cart/Cart";
 
 export default function App() {
+  function switchLink(page) {
+    const active = document.querySelector(".active");
+    active.classList.remove("active");
+    const listItem = document.querySelector(`#navbar li:nth-child(${page}) a`);
+    listItem.classList.add("active");
+  }
   return (
     <>
-      <Header />
+      <Header switchLink={switchLink} />
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/shop" element={<ShopPage />} />
-        <Route path="/blog" element={<BlogPage />} />
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="/contact" element={<ContactPage />} />
-        <Route path="/cart" element={<Cart />} />
+        <Route
+          path="/"
+          element={<HomePage page={1} switchLink={switchLink} />}
+        />
+        <Route
+          path="/shop"
+          element={<ShopPage page={2} switchLink={switchLink} />}
+        />
+        <Route
+          path="/blog"
+          element={<BlogPage page={3} switchLink={switchLink} />}
+        />
+        <Route
+          path="/about"
+          element={<AboutPage page={4} switchLink={switchLink} />}
+        />
+        <Route
+          path="/contact"
+          element={<ContactPage page={5} switchLink={switchLink} />}
+        />
+        <Route
+          path="/cart"
+          element={<Cart page={6} switchLink={switchLink} />}
+        />
         <Route path="/*" element={<Navigate to="/" />} />
       </Routes>
     </>

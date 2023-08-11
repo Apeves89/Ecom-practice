@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 import f1 from "../../img/features/f1.png";
 import f2 from "../../img/features/f2.png";
 import f3 from "../../img/features/f3.png";
@@ -22,7 +23,10 @@ import n6 from "../../img/products/n6.jpg";
 import n7 from "../../img/products/n7.jpg";
 import n8 from "../../img/products/n8.jpg";
 
-export default function HomePage() {
+export default function HomePage({ switchLink, page }) {
+  useEffect(() => {
+    switchLink(page);
+  }, []);
   return (
     <>
       <section id="hero">
